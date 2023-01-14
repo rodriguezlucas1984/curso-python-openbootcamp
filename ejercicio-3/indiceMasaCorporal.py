@@ -25,7 +25,7 @@ def main():
         else:
             print("Ingrese un valor float")
     indice=calcularIndiceDeMasaCorporal(p,a)
-    print("Tu índice de masa corporal es: " + str(indice))
+    print("Tu índice de masa corporal es: " + str(round(indice,2)))
 
 if __name__ == "__main__":
     main()
