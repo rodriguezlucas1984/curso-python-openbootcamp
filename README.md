@@ -23,3 +23,8 @@ Ubicacion: [indiceMasaCorporal.py](https://github.com/rodriguezlucas1984/curso-p
 Escribe un programa que sea capaz de mostrar los números del 1 al 100 en orden inverso.
 
 Ubicacion: [cuentaRegresiva.py](https://github.com/rodriguezlucas1984/curso-python-openbootcamp/blob/main/ejercicio-4/cuentaRegresiva.py)
+
+## Ejercicio 5
+Escribe una función que pueda decirte si un año (número entero) es bisiesto o no.
+
+Ubicacion: [aniosBisiestos.py](https://github.com/rodriguezlucas1984/curso-python-openbootcamp/blob/main/ejercicio-5/aniosBisiestos.py)
