@@ -47,3 +47,8 @@ Por otro lado crearéis la clase Coche la cual heredará de Vehículo y tendrá 
 Por último, tendrás que crear un objeto de la clase Coche y mostrarlo por consola.
 
 Ubicacion: [fabricaDeCoches.py](https://github.com/rodriguezlucas1984/curso-python-openbootcamp/blob/main/ejercicio-6/fabricaDeCoches.py)
+
+## Ejercicio 7
+En este segundo ejercicio, tendréis que crear un programa que tenga una clase llamada Alumno que tenga como atributos su nombre y su nota. Deberéis de definir los métodos para inicializar sus atributos, imprimirlos y mostrar un mensaje con el resultado de la nota y si ha aprobado o no.
+
+Ubicacion: [calificandoAlumno.py](https://github.com/rodriguezlucas1984/curso-python-openbootcamp/blob/main/ejercicio-7/calificandoAlumno.py)
