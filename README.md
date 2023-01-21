@@ -28,3 +28,22 @@ Ubicacion: [cuentaRegresiva.py](https://github.com/rodriguezlucas1984/curso-pyth
 Escribe una función que pueda decirte si un año (número entero) es bisiesto o no.
 
 Ubicacion: [aniosBisiestos.py](https://github.com/rodriguezlucas1984/curso-python-openbootcamp/blob/main/ejercicio-5/aniosBisiestos.py)
+
+## Ejercicio 6
+En este ejercicio vais a crear la clase Vehículo la cual tendrá los siguientes atributos:
+
+- Color
+
+- Ruedas
+
+- Puertas
+
+Por otro lado crearéis la clase Coche la cual heredará de Vehículo y tendrá los siguientes atributos:
+
+- Velocidad
+
+- Cilindrada
+
+Por último, tendrás que crear un objeto de la clase Coche y mostrarlo por consola.
+
+Ubicacion: [fabricaDeCoches.py](https://github.com/rodriguezlucas1984/curso-python-openbootcamp/blob/main/ejercicio-6/fabricaDeCoches.py)
