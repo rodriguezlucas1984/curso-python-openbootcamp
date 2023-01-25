@@ -52,3 +52,10 @@ Ubicacion: [fabricaDeCoches.py](https://github.com/rodriguezlucas1984/curso-pyth
 En este segundo ejercicio, tendréis que crear un programa que tenga una clase llamada Alumno que tenga como atributos su nombre y su nota. Deberéis de definir los métodos para inicializar sus atributos, imprimirlos y mostrar un mensaje con el resultado de la nota y si ha aprobado o no.
 
 Ubicacion: [calificandoAlumno.py](https://github.com/rodriguezlucas1984/curso-python-openbootcamp/blob/main/ejercicio-7/calificandoAlumno.py)
+
+## Ejercicio 8
+En este ejercicio tendréis que crear un módulo que contenga las operaciones básicas de una calculadora: sumar, restar, multiplicar y dividir.
+
+Este módulo lo importaréis a un archivo python y llamaréis a las funciones creadas. Los resultados tenéis que mostrarlos por consola.
+
+Ubicacion: [ejercicio-8](https://github.com/rodriguezlucas1984/curso-python-openbootcamp/blob/main/ejercicio-8)

@@ -1,2 +1,6 @@
 #Configuración del IDE VS Code
 .vscode
+.vs
+
+#Cache de Python
+__pycache__
