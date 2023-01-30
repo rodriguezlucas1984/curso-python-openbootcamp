@@ -4,3 +4,6 @@
 
 #Cache de Python
 __pycache__
+
+#Archivos creados por scripts
+*.txt
