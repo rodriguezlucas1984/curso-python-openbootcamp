@@ -81,3 +81,9 @@ Ubicacion: [ejercicio-9](https://github.com/rodriguezlucas1984/curso-python-open
 En este ejercicio, tendréis que crear un archivo py donde creéis un archivo txt, lo abráis y escribáis dentro del archivo. Para ello, tendréis que acceder dos veces al archivo creado.
 
 Ubicacion: [salidaTxt.py](https://github.com/rodriguezlucas1984/curso-python-openbootcamp/blob/main/ejercicio-10/salidaTxt.py)
+
+## Ejercicio 11
+
+En este segundo ejercicio, tendréis que crear un archivo py y dentro crearéis una clase Vehículo, haréis un objeto de ella, lo guardaréis en un archivo y luego lo cargamos.
+
+Ubicacion: [serializador.py](https://github.com/rodriguezlucas1984/curso-python-openbootcamp/blob/main/ejercicio-11/serializador.py)
