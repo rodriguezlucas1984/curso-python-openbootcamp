@@ -252,6 +252,7 @@ paises = ("Afghanistan",
 class Paises:
     lista = paises
 
+    @staticmethod
     def existe(pais):
         for _pais in Paises.lista:
             if _pais == pais:

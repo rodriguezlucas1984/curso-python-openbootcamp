@@ -4,7 +4,7 @@ from paisesExistentes import Paises
 
 class Test():
     def main():
-        setPaises = {}
+        setPaises = set()
         while len(setPaises) == 0:
             lista = input(
                 "Ingrese una lista de paises, separada por comas:\n").split(",")
