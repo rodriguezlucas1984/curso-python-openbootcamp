@@ -87,3 +87,9 @@ Ubicacion: [salidaTxt.py](https://github.com/rodriguezlucas1984/curso-python-ope
 En este segundo ejercicio, tendréis que crear un archivo py y dentro crearéis una clase Vehículo, haréis un objeto de ella, lo guardaréis en un archivo y luego lo cargamos.
 
 Ubicacion: [serializador.py](https://github.com/rodriguezlucas1984/curso-python-openbootcamp/blob/main/ejercicio-11/serializador.py)
+
+## Ejercicio 12
+
+Crea un script que le pida al usuario una lista de países (separados por comas). Éstos se deben almacenar en una lista. No debería haber países repetidos (haz uso de set). Finalmente, muestra por consola la lista de países ordenados alfabéticamente y separados por comas.
+
+Ubicacion: [listaPaises.py](https://github.com/rodriguezlucas1984/curso-python-openbootcamp/blob/main/ejercicio-12/listaPaises.py)
