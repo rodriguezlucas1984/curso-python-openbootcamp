@@ -99,3 +99,11 @@ Ubicacion: [listaPaises.py](https://github.com/rodriguezlucas1984/curso-python-o
 En este segundo ejercicio, tenéis que crear una aplicación que obtendrá los elementos impares de una lista pasada por parámetro con filter y realizará una suma de todos estos elementos obtenidos mediante reduce.
 
 Ubicacion: [sumaImpares.py](https://github.com/rodriguezlucas1984/curso-python-openbootcamp/blob/main/ejercicio-13/sumaImpares.py)
+
+## Ejercicio 14
+
+En este ejercicio tenéis que crear una lista de RadioButton que muestre la opción que se ha seleccionado y que contenga un botón de reinicio para que deje todo como al principio.
+
+Al principio no tiene que haber una opción seleccionada.
+
+Ubicacion: [main.py](https://github.com/rodriguezlucas1984/curso-python-openbootcamp/blob/main/ejercicio-14/main.py)
