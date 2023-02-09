@@ -107,3 +107,9 @@ En este ejercicio tenéis que crear una lista de RadioButton que muestre la opci
 Al principio no tiene que haber una opción seleccionada.
 
 Ubicacion: [main.py](https://github.com/rodriguezlucas1984/curso-python-openbootcamp/blob/main/ejercicio-14/main.py)
+
+## Ejercio 15
+
+En este segundo ejercicio, tendréis que crear una interfaz sencilla la cual debe de contener una lista de elementos seleccionables, también debe de tener un label con el texto que queráis.
+
+Ubicacion: [main.py](https://github.com/rodriguezlucas1984/curso-python-openbootcamp/blob/main/ejercicio-15/main.py)
