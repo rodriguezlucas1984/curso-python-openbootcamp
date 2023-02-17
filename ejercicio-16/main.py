@@ -100,4 +100,5 @@ def main():
             print(f'\nEl valor "{opcion}" no es una opción valida...\n')
 
 
-main()
+if __name__ == '__main__':
+    main()
