@@ -108,8 +108,18 @@ Al principio no tiene que haber una opción seleccionada.
 
 Ubicacion: [main.py](https://github.com/rodriguezlucas1984/curso-python-openbootcamp/blob/main/ejercicio-14/main.py)
 
-## Ejercio 15
+## Ejercicio 15
 
 En este segundo ejercicio, tendréis que crear una interfaz sencilla la cual debe de contener una lista de elementos seleccionables, también debe de tener un label con el texto que queráis.
 
 Ubicacion: [main.py](https://github.com/rodriguezlucas1984/curso-python-openbootcamp/blob/main/ejercicio-15/main.py)
+
+## Ejercicio 16
+
+En este ejercicio tendréis que crear una tabla llamada Alumnos que constará de tres columnas: la columna id de tipo entero, la columna nombre que será de tipo texto y la columna apellido que también será de tipo texto.
+
+Una vez creada la tabla, tenéis que insertarle datos, como mínimo tenéis que insertar 8 alumnos a la tabla.
+
+Por último, tienes que realizar una búsqueda de un alumno por nombre y mostrar los datos por consola.
+
+Ubicacion: [main.py](https://github.com/rodriguezlucas1984/curso-python-openbootcamp/blob/main/ejercicio-16/main.py)

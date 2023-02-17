@@ -8,3 +8,6 @@ __pycache__
 #Archivos creados por scripts
 *.txt
 *.bin
+
+#Archivos de base de datos
+*.sqlite
