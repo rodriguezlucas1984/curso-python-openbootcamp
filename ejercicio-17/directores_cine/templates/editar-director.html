@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+<form method="POST" class="d-flex flex-column justify-content-between align-items-center">
+    {%ifequal modo 'editar'%}
+    <h2 class="text-center">Editar Director</h2>
+    {% else %}
+    <h2 class="text-center">Nuevo Director</h2>
+    {% endifequal %}
+    {% csrf_token %}
+    {% for field in form %}
+    <div class="form-group">
+        {{ field.errors }}
+        {{ field.label_tag }} {{ field}}
+    </div>
+    {% endfor %}
+    <input type="submit" class="btn btn-primary my-2" />
+</form>
+{% endblock %}

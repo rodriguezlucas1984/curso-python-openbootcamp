@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block content %}
+<a class="btn btn-success float-right mx-2 my-2" href="nuevo-director">Nuevo director</a>
+<table class="table table-dark">
+    <thead>
+        <tr>
+            <th class="text-right" scope="col">Id</th>
+            <th class="text-right" scope="col">Nombre</th>
+            <th class="text-right" scope="col">Apellido</th>
+            <th class="text-right" scope="col">Fecha de Nacimiento</th>
+            <th class="text-right" scope="col">Estado civil</th>
+            <th></th>
+            <th></th>
+        </tr>
+
+    </thead>
+    <tbody>{% for director in directores %}
+        <tr scope="row">
+            <td class="text-right">{{director.id}}</td>
+            <td class="text-right">{{director.nombre}}</td>
+            <td class="text-right">{{director.apellido}}</td>
+            <td class="text-right">{{director.fecha_nacimiento}}</td>
+            <td class="text-right">{{director.estado_civil}}</td>
+            <td class="text-center"><a class="btn btn-primary btn-xs px-1 py-1"
+                    href="editar-director/{{director.id}}">Editar</a>
+            </td>
+            <td class="text-center"><a class="btn btn-danger btn-xs px-1 py-1"
+                    href="eliminar-director/{{director.id}}">Eliminar</a>
+            </td>
+        </tr>
+        {%endfor%}
+    </tbody>
+</table>
+
+{% endblock %}

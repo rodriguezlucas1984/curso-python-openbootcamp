@@ -1,0 +1,22 @@
+[
+    {
+        "model": "directores_cine.pelicula",
+        "fields": {
+            "titulo": "Taxi Driver",
+            "descripcion": "Para sobrellevar el insomnio crónico que sufre desde su regreso de Vietnam, Travis Bickle (Robert De Niro) trabaja como taxista nocturno en Nueva York. Es un hombre insociable que apenas tiene contacto con los demás, se pasa los días en el cine y vive prendado de Betsy (Cybill Shepherd), una atractiva rubia que trabaja como voluntaria en una campaña política. Pero lo que realmente obsesiona a Travis es comprobar cómo la violencia, la sordidez y la desolación dominan la ciudad. Y un día decide pasar a la acción. ",
+            "fecha_estreno": "1976-02-08",
+            "duracion_minutos": 113,
+            "director_id": 1
+        }
+    },
+    {
+        "model": "directores_cine.pelicula",
+        "fields": {
+            "titulo": "Saving Private Ryan",
+            "descripcion": "Segunda Guerra Mundial, 1944. Tras el desembarco de los Aliados en Normandía, a un grupo de soldados americanos se le encomienda una peligrosa misión: poner a salvo al soldado James Ryan. Los hombres de la patrulla del capitán John Miller deben arriesgar sus vidas para encontrar a este soldado, cuyos tres hermanos han muerto en la guerra. Lo único que se sabe del soldado Ryan es que se lanzó con su escuadrón de paracaidistas detrás de las líneas enemigas. ",
+            "fecha_estreno": "1998-06-24",
+            "duracion_minutos": 170,
+            "director_id": 3
+        }
+    }
+]

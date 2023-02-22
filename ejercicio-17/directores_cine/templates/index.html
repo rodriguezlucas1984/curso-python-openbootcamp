@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block content %}
+<p class="text-left lead my-3 ml-1">En este ejercicio tendrás que crear una aplicación en Django que almacene datos de
+    directores
+    de
+    cine y luego se
+    puedan ver sus películas, así como una descripción de las mismas.</p>
+<p class="text-left lead my-3 ml-1">
+    Tienes que personalizar el admin de la aplicación y a su vez crear las vistas de cada una de las partes de la
+    aplicación.</p>
+<h2>Tablas</h2>
+<ul class="ml-5 list-group ">
+    <li class="list-group-item d-flex justify-content-between align-items-center bg-dark">
+        <a href="directores">Directores</a>
+        <span class="badge badge-primary badge-pill">{{no_directores}}</span>
+    </li>
+    <li class="list-group-item d-flex justify-content-between align-items-center bg-dark">
+        <a href="peliculas">Peliculas</a>
+        <span class="badge badge-primary badge-pill">{{no_peliculas}}</span>
+    </li>
+</ul>
+
+{% endblock %}

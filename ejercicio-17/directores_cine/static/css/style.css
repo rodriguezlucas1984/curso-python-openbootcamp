@@ -1,0 +1,24 @@
+body {
+  background-color: #333;
+  color: #fff;
+}
+
+label {
+  display: block;
+  width: 30vw;
+}
+input,
+select {
+  display: block;
+  width: 30vw;
+}
+
+form {
+  border: solid white 2px;
+  border-radius: 20px;
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35vw;
+  padding: 1%;
+}

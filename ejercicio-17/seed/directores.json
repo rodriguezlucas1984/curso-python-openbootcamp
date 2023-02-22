@@ -1,0 +1,35 @@
+[
+    {
+        "model": "directores_cine.director",
+        "pk": 1,
+        "fields": {
+            "nombre": "Martin Charles",
+            "apellido": "Scorsese",
+            "fecha_nacimiento": "1942-11-17",
+            "nacionalidad": "Estadounidense",
+            "estado_civil": "C"
+        }
+    },
+    {
+        "model": "directores_cine.director",
+        "pk": 2,
+        "fields": {
+            "nombre": "Samuel",
+            "apellido": "Wilder",
+            "fecha_nacimiento": "1906-06-22",
+            "nacionalidad": "Estadounidense",
+            "estado_civil": "C"
+        }
+    },
+    {
+        "model": "directores_cine.director",
+        "pk": 3,
+        "fields": {
+            "nombre": "Steven Allan",
+            "apellido": "Spielberg",
+            "fecha_nacimiento": "1946-12-18",
+            "nacionalidad": "Estadounidense",
+            "estado_civil": "C"
+        }
+    }
+]

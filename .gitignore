@@ -11,3 +11,4 @@ __pycache__
 
 #Archivos de base de datos
 *.sqlite
+*.sqlite3

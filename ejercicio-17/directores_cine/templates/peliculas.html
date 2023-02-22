@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block content %}
+<a class="btn btn-success float-right mx-2 my-2" href="nuevo-pelicula">Nueva pelicula</a>
+<table class="table table-dark">
+    <thead>
+        <tr>
+            <th class="text-center" scope="col">Id</th>
+            <th class="text-center" scope="col">Titulo</th>
+            <th class="text-center" scope="col">Descripcion</th>
+            <th class="text-center" scope="col">Estrenada</th>
+            <th class="text-center" scope="col">Duracion</th>
+            <th class="text-center" scope="col">Director</th>
+            <th></th>
+            <th></th>
+        </tr>
+
+    </thead>
+    <tbody>{% for pelicula in peliculas %}
+        <tr scope="row">
+            <td class="text-center">{{pelicula.id}}</td>
+            <td class="text-center">{{pelicula.titulo}}</td>
+            <td class="text-justify">{{pelicula.descripcion}}</td>
+            <td class="text-center">{{pelicula.fecha_estreno}}</td>
+            <td class="text-center">{{pelicula.duracion_minutos}}</td>
+            <td class="text-center">{{pelicula.director}}</td>
+            <td class="text-center"><a class="btn btn-primary btn-xs px-1 py-1"
+                    href="editar-pelicula/{{pelicula.id}}">Editar</a>
+            </td>
+            <td class="text-center"><a class="btn btn-danger btn-xs px-1 py-1"
+                    href="eliminar-pelicula/{{pelicula.id}}">Eliminar</a>
+            </td>
+        </tr>
+        {%endfor%}
+    </tbody>
+</table>
+
+{% endblock %}
